@@ -52,7 +52,7 @@ This option would have a list view where you could set what type of car parking 
 
 ###RESULT###
 
-Below is a link to a png file of a template I designed for home page, and also a link to a result page !
+Below is a link to a .png file of a template I designed for home page, and also a link to a result page !
 https://github.com/Blankz1035/galwayCityParkingLocations/blob/master/galwayCityParkingHome.png
 
 https://github.com/Blankz1035/galwayCityParkingLocations/blob/master/parkingResults.png
@@ -78,7 +78,7 @@ This will give a list of the Car Parking Locations in a specified area. It will 
 where you replace [area] with the location.
 For example, the URL:
 *http://galwaycitycarparklocations.com/area/galway*
-will return a list of car parks located in galway.
+will return a list of car parks located in Galway.
 ```
 
 ####List of Car parks that are multi story####
@@ -91,4 +91,3 @@ where you replace [type] with the multi_story.
 For example, the URL:
 http://galwaycitycarparklocations.com/multi_story
 will return a list of car parks that are multi_story.
-```
