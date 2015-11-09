@@ -1,4 +1,4 @@
-# galwayCityParkingLocations
+# GalwayCityParkingLocations
 
 ## Data Representation and Querying Project 2015
 
@@ -59,12 +59,14 @@ https://github.com/Blankz1035/galwayCityParkingLocations/blob/master/galwayCityP
 
 https://github.com/Blankz1035/galwayCityParkingLocations/blob/master/parkingResults.png
 
-This page will consist of the data including:
+This page will consist of the data including the following:
 
->    * Area (String)
->    * Name (String)
->    * Type: (String)
->    * NO_Spaces: (INT)
+Field | Data Value
+------|------------
+Area | (String)
+Name | (String)
+Type | (String)
+NO_Spaces | (INT)
 
 #####MAP#####
 
