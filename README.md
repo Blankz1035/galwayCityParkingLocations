@@ -19,18 +19,20 @@ The CSV file contains 18 rows, the first row acting as a header row with the nam
 
 There are 12 values on each line, which are as follows:
 
->    * X value: 
->    * Y value: 
->    * ObjectID: id of the row - Primary Key
->    * Name: name of parking location
->    * Type: Type of Car Park
->    * NO_Spaces: How much the centre holds
->    * Latitude: Location
->	 * Longitude: Location
->    * EastITM: Irish Transverse Mercator Positioning
->    * NorthITM: Irish Transverse Mercator Positioning
->	 * EastIG: ??? 
->	 * NorthIG: ???
+Field | Description
+------|------------
+X value | 
+Y value |
+ObjectID | id of the row - Primary Key
+Name | name of parking location
+Type | Type of Car Park
+NO_Spaces | How much the centre holds
+Latitude | Location
+Longitude | Location
+EastITM | Irish Transverse Mercator Positioning
+NorthITM | Irish Transverse Mercator Positioning
+EastIG | ??? 
+NorthIG | ???
 
   Irish Transverse Mercator stands for (ITM)
   
@@ -68,7 +70,7 @@ This page will consist of the data including:
 
 This app would definitely need a Map to accompany it to increase user friendliness and also show people where the parking location is. This would be in accordance to the X,Y,Long, Lat values in the dataset. 
 
-###URL's###
+###URL's To Query Data###
 
 ####List of Car Parks in a specified area####
 This will give a list of the Car Parking Locations in a specified area. It will also Show the types of Car parks.
