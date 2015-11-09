@@ -67,3 +67,16 @@ This page will consist of the data including:
 #####MAP#####
 
 This app would definitely need a Map to accompany it to increase user friendliness and also show people where the parking location is. This would be in accordance to the X,Y,Long, Lat values in the dataset. 
+
+###URL's###
+
+####List of Car Parks in a specified area####
+This will give a list of the Car Parking Locations in a specified area. It will also Show the types of Car parks.
+
+```markdown
+*http://galwaycitycarparklocations.com/area/[area]*
+where you replace [area] with the location.
+For example, the URL:
+*http://galwaycitycarparklocations.com/area/galway*
+will return a list of car parks located in galway.
+```
