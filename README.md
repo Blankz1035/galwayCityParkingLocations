@@ -91,3 +91,28 @@ where you replace [type] with the multi_story.
 For example, the URL:
 http://galwaycitycarparklocations.com/multi_story
 will return a list of car parks that are multi_story.
+```
+
+####List of car parks in a given area that are multi_story####
+This will give a list of the car parks in a given area that are multi_story. It will also show their NO_Spaces.
+
+```markdown
+*http://galwaycitycarparklocations.com/area-type/[area]multi_story*
+where you replace [area] with the area.
+For example, the URL:
+http://galwaycitycarparklocations.com/area-type/galway-multi_story
+ will return a list of car parks located in Galway that are multi story.
+```
+
+####An example of a URL that would be country wide####
+
+```markdown
+*http://galwaycitycarparklocations.com/[county]/[town/city]/[area]/[type]/*
+
+For example, the URL:
+*http://galwaycitycarparklocations.com/galway/galway/multi_story/*
+will return a list of car parks in Galway City which are multi story.
+```
+
+
+The program used to sketch quick design of a possible app was Microsoft Paint.
