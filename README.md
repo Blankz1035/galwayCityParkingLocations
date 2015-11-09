@@ -2,7 +2,7 @@
 
 ## Data Representation and Querying Project 2015
 
-### Andy Blankley
+### Andy Blankley G00313312
 
 ## Introduction to My Project
 
@@ -79,4 +79,16 @@ where you replace [area] with the location.
 For example, the URL:
 *http://galwaycitycarparklocations.com/area/galway*
 will return a list of car parks located in galway.
+```
+
+####List of Car parks that are multi story####
+This will give a list of the Car Parks that are multi Story. 
+It will also show NO_Spaces that the car park has too.
+
+```markdown
+*http://galwaycitycarparklocations.com/type/[type]*
+where you replace [type] with the multi_story.
+For example, the URL:
+http://galwaycitycarparklocations.com/multi_story
+will return a list of car parks that are multi_story.
 ```
