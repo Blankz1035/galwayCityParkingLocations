@@ -34,7 +34,7 @@ There are 12 values on each line, which are as follows:
 
   Irish Transverse Mercator stands for (ITM)
   
-  ##Design Idea##
+### Design Idea
 
 The app should and would be user friendly. To accomplish this I would have Area as a option on the app, and Type.
 
@@ -63,3 +63,7 @@ This page will consist of the data including:
 >    * Name (String)
 >    * Type: (String)
 >    * NO_Spaces: (INT)
+
+#####MAP#####
+
+This app would definitely need a Map to accompany it to increase user friendliness and also show people where the parking location is. This would be in accordance to the X,Y,Long, Lat values in the dataset. 
