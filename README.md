@@ -1,4 +1,4 @@
-# GalwayCityParkingLocations
+# galwayCityParkingLocations
 
 ## Data Representation and Querying Project 2015
 
@@ -52,6 +52,15 @@ This would consist of a drop down list where you choose what area you are in.
 
 This option would have a list view where you could set what type of car parking area you are looking for , I.E Multi story or just "pay and display"
 
+#####Other Ideas#####
+
+If the dataset was tweaked and modified you could add more columns with more data to assist the user. New columns I would add to the dataset would be:
+  
+|Heading | Description |
+|---------|:-----------|
+| TIMES | Information on opening times|
+| PRICE | Prices of the carpark / free or not |
+
 ###RESULT###
 
 Below is a link to a .png file of a template I designed for home page, and also a link to a result page !
@@ -85,6 +94,20 @@ For example, the URL:
 will return a list of car parks located in Galway.
 ```
 
+Example: Docks
+
+```json
+{
+        "NAME": "Docks",
+        "Lat": "53.271",
+        "Long": "-9.049",
+        "EastITM": "530015.932",
+        "NorthITM": "725055.66",
+        "EastIG": "130050.06",
+        "NorthIG": "225026.446"
+}
+```
+
 ####List of Car parks that are multi story####
 This will give a list of the Car Parks that are multi Story. 
 It will also show NO_Spaces that the car park has too.
@@ -95,6 +118,22 @@ where you replace [type] with the multi_story.
 For example, the URL:
 http://galwaycitycarparklocations.com/multi_story
 will return a list of car parks that are multi_story.
+```
+
+Quick Example : Jury's Hotel
+
+```json
+{
+        "NAME": "Jurys Hotel",
+        "TYPE": "Multistorey Carpark",
+        "NO_SPACES": "348",
+        "Lat": "53.271",
+        "Long": "-9.055",
+        "EastITM": "529620.784",
+        "NorthITM": "725010.839",
+        "EastIG": "129654.828",
+        "NorthIG": "224981.613"
+}
 ```
 
 ####List of car parks in a given area that are multi_story####
@@ -117,6 +156,25 @@ For example, the URL:
 *http://galwaycitycarparklocations.com/galway/galway/multi_story/*
 will return a list of car parks in Galway City which are multi story.
 ```
+
+##Status Code
+| Code | Description |    
+|------|:--------|     
+**200** | Ok | 
+**202** | Accepted  |  
+**400** | Bad Request | 
+**404** | Not Found  |  
+**405** | Method Not Allowed | 
+**503** | Service Unavaiable |
+
+##HTTP Request Methods  
+|Method | Description |
+|---------|:-----------|
+| GET | GET Retrieves Information from the server |
+| HEAD | HEAD Retrieves response header  |
+| PUT | PUT Sets the data at the URI to request data |
+| POST | POST Sends data to the server |
+| DELETE | Delete the data at the URI |
 
 
 The program used to sketch quick design of a possible app was Microsoft Paint.
