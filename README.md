@@ -21,8 +21,8 @@ There are 12 values on each line, which are as follows:
 
 Field | Description
 ------|------------
-X value | 
-Y value |
+X value | Longitude
+Y value | Latitude
 ObjectID | id of the row - Primary Key
 Name | name of parking location
 Type | Type of Car Park
@@ -31,8 +31,8 @@ Latitude | Location
 Longitude | Location
 EastITM | Irish Transverse Mercator Positioning
 NorthITM | Irish Transverse Mercator Positioning
-EastIG | ??? 
-NorthIG | ???
+EastIG | Cartesian co-ordinates - Easting
+NorthIG | Cartesian co-ordinates - Northing
 
   Irish Transverse Mercator stands for (ITM)
   
